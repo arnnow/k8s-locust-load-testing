@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: locust-master
-          image: arnnow/locust-tasks:latest
+          image: arnnow/k8s-locust-load-testing:latest
           env:
             - name: LOCUST_MODE
               value: master

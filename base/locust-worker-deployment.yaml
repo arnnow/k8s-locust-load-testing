@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: locust-worker
-          image: arnnow/locust-tasks:latest
+          image: arnnow/k8s-locust-load-testing:latest
           env:
             - name: LOCUST_MODE
               value: worker
