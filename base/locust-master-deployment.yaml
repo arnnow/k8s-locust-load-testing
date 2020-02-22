@@ -36,7 +36,7 @@ spec:
             - name: LOCUST_MODE
               value: master
             - name: TARGET_HOST
-              value: https://nginx
+              value: http://nginx
           ports:
             - name: loc-master-web
               containerPort: 8089
