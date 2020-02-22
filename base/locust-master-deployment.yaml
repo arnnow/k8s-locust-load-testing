@@ -13,8 +13,8 @@
 # limitations under the License.
 
 
-apiVersion: "extensions/v1beta1"
-kind: "Deployment"
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: locust-master
   labels:
@@ -36,7 +36,7 @@ spec:
             - name: LOCUST_MODE
               value: master
             - name: TARGET_HOST
-              value: http://nginx
+              value: https://nginx
           ports:
             - name: loc-master-web
               containerPort: 8089

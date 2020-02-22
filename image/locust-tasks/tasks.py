@@ -29,7 +29,7 @@ class GetTaskSet(TaskSet):
 
     @task(1)
     def login(self):
-        self.client.get("/")
+        self.client.get("/memcache_random.php")
 
 class MetricsLocust(HttpLocust):
     task_set = GetTaskSet

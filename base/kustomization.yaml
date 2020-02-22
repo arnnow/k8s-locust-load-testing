@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   - locust-master-deployment.yaml
   - locust-master-service.yaml
-  - locust-worker-controller.yaml
+  - locust-worker-deployment.yaml

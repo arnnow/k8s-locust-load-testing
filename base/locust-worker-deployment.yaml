@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-apiVersion: "extensions/v1beta1"
-kind: "Deployment"
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: locust-worker
   labels:
     name: locust-worker
 spec:
-  replicas: 5
+  replicas: 4
   selector:
     matchLabels:
       app: locust-worker
