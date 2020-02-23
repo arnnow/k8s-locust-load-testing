@@ -90,7 +90,7 @@ Let's Open locust UI:
 ![locust-statistics](img/locust-statistics.png)
 ![locust-graph](img/locust-graph.png)
 
-You can also see data in prometheus  
+You can also see data in [prometheus](https://github.com/arnnow/k8s-prometheus)
 ![prometheus-memcached_items](img/prometheus-memcached_items.png)
 
 
